@@ -348,6 +348,7 @@
 				INFOPLIST_FILE = IMix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -358,6 +359,7 @@
 				INFOPLIST_FILE = IMix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -414,6 +416,7 @@
 				9AC3D36D1A7102870000407E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AC3D36E1A7102870000407E /* Build configuration list for PBXNativeTarget "IMixTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +425,7 @@
 				9AC3D3701A7102870000407E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
